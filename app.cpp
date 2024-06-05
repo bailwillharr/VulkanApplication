@@ -204,7 +204,7 @@ static void gameLoop()
 
 #ifndef NDEBUG
         // create a console window for debugging
-        if (AllocConsole() == FALSE) throw Error("AllocConsole() failure from render thread");
+        //if (AllocConsole() == FALSE) throw Error("AllocConsole() failure from render thread");
 #endif
 
         constexpr int64_t FPS_LIMIT = 240;
